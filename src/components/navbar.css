@@ -1,0 +1,18 @@
+.navbar{
+    /* position: fixed; */
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poiret One', cursive;
+    color: #111;
+    font-size: larger;
+    background-color: #ccc;
+}
+
+#globe{
+    height: 40px;
+    padding-right: 20px;
+}

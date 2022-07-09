@@ -1,0 +1,24 @@
+#to--top {
+    /* display: none; */
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #ddd;
+    color: #111;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 20px;
+  }
+  
+  #to--top:hover{
+    background-color: #aaa;
+  }
+  
+  #to--top:active{
+    background-color: #333;
+    color: #ddd;
+  }
