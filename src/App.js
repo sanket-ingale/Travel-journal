@@ -8,7 +8,9 @@ import data from './components/data';
 
 export default function App() {
   
-  const cards = data.map( item => <Card key={data.id} {...item}/> );
+  const cards = data.map( item => {
+    return <Card key={data.id} {...item}/>
+  } );
 
   return (
     <section className="container">
