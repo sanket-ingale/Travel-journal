@@ -1,6 +1,6 @@
 .navbar{
-    /* position: fixed; */
-    width: 100%;
+    position: fixed;
+    width: 100vw;
     height: 80px;
     display: flex;
     flex-direction: row;
